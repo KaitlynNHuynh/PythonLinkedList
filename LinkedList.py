@@ -27,7 +27,7 @@ class LinkedList:
        temp = self.head
 
        while( temp != None):
-           if(temp.val == val):
+           if(temp.value == val):
                return True
            temp = temp.next
 
